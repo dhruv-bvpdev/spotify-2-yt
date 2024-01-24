@@ -12,8 +12,8 @@ class Playlist:
 class SpotifyClient:
 
     def __init__(self) -> None:
-        client_id = "21d924e7d3d14e379c6f301a57b4c095"
-        client_secret = "4993184957ef46cebf79df4ed2add23d"
+        client_id = ""
+        client_secret = ""
         auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
         self.spotify = spotipy.Spotify(auth_manager=auth_manager)
 
