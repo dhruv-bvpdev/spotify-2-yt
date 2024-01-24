@@ -17,7 +17,7 @@ class YouTubeClient:
 
         self.youtube = build("youtube", "v3", credentials=creds)
 
-    """ def create_playlist(self, name: str, description: str):
+    def create_playlist(self, name: str, description: str):
         playlist = (
             self.youtube.playlists()
             .insert(
@@ -34,7 +34,7 @@ class YouTubeClient:
             .execute()
         )
 
-        return playlist """
+        return playlist
 
     def add_song_playlist(self, playlist_id: str, video_id: str):
         request = (

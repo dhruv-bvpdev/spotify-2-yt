@@ -23,4 +23,4 @@ for track in spotify_playlist.tracks:
 print("Done 👍")
 print(f"https://www.youtube.com/playlist?list={youtube_playlist_id}")
 
-# You get playlist id from the playlist URL of spotify. In this script, the playlist id get as command line args.
+# You get playlist id from the playlist URL of spotify. In this script, the playlist id is taken from command line args.
